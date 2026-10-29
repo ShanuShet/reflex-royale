@@ -1,0 +1,21 @@
+REFLEX ROYALE — FEATURE UPGRADE
+
+Features added:
+- Sound toggle and reaction/signal sound cues
+- Space/Enter keyboard reaction controls
+- Copy invite link that pre-fills the room code
+- Match analytics (average/best reaction, false starts, longest streak, valid hits, score)
+- Achievements (Champion, Lightning, Ice Cold, On Fire, Human Hypersonic)
+- Local career stats saved in the player's browser
+- Completed match history available for the final match report
+
+Install and run (Node.js 20+):
+  npm install
+  npm test
+  npm start
+Then open http://localhost:3000.
+
+Important:
+- Extract this ZIP so package.json is directly in the extracted folder.
+- Career stats are stored locally in each browser, not in a global online account.
+- The full server startup could not be verified in the packaging environment because dependencies were not installed there. Install with npm install on your computer before running.
